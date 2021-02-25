@@ -1,0 +1,133 @@
+img{
+    border: none;
+}
+
+/*  */
+.regist{
+    width: 100%;
+    margin: 45px 0 0 0;
+}
+.regist h1 {
+    height: 35px;
+    width: 415px;
+    float: right;
+    line-height: 35px;
+    margin: 0 100px 0 0;
+    border-bottom: 2px solid #b81e20;
+    font-size: 20px;
+    color: #a2a2a2;
+    font-weight: bolder;
+}
+.regist h1 span {
+    font-size: 14px;
+    float: right;
+}
+.regist h1 span a {
+    color: #b52024;
+    margin: 0 0 0 3px;
+}
+a, a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+.content_left {
+    width: 415px;
+    float: right;
+    margin: 10px 95px 0 0;
+}
+.content_left form{
+    text-align: center;
+}
+.content_left .biginput{
+    width: 350px;
+    height: 45px;
+    margin-top: 20px;
+}
+.content_left .checkbox{
+    margin-top: 32px;
+    text-align: left;
+    margin-left: 32px;
+}
+
+.content_right {
+    width: 465px;
+    height: 500px;
+    float: left;
+    margin: -38px 0 0 130px;
+}
+
+.submitStyle {
+    clear: both;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #b52024;
+    color: #fff;
+    cursor: pointer;
+    clear: both;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    width: 300px;
+    margin-top: 15px;
+}
+
+
+#bottom {
+    width: 980px;
+    display: inline-table;
+    font: 100 12px "宋体";
+    color: #999999;
+    position: relative;
+    margin: 0px auto;
+    padding-top: 15px;
+}
+#bottoms .bZp3 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    _margin: 0 0 17px 0;
+    width: 980px;
+}
+
+#footerArea {
+    width: 980px;
+    margin: 0 auto;
+}
+#footerArea .subFooter {
+    margin-bottom: 25px;
+    text-align: center;
+}
+#footerArea .redLogo:link, #footerArea .redLogo:visited, #footerArea .redLogo:hover {
+    width: 113px;
+    height: 42px;
+    display: inline-block;
+    background: url(https://sslimg.vancl.com/header/20120309/spritesbg.png) no-repeat 0px -400px;
+}
+#bottom a:visited {
+    text-decoration: none;
+    color: #333333;
+}
+
+
+#footerArea .subFooter span {
+    margin: 0 10px;
+}
+#footerArea .costumeOrg {
+    width: 156px;
+    height: 45px;
+    display: inline-block;
+    background: url(https://sslimg.vancl.com/header/20120309/spritesbg.png) no-repeat 0px -448px;
+}
+#footerArea .wsjyBzzx:link, #footerArea .wsjyBzzx:visited, #footerArea .wsjyBzzx:hover {
+    width: 96px;
+    height: 42px;
+    display: inline-block;
+    background: url(https://sslimg.vancl.com/header/20120309/spritesbg.png) no-repeat 0px -494px;
+}
+#footerArea .vanclMsg:link, #footerArea .vanclMsg:visited, #footerArea .vanclMsg:hover {
+    width: 101px;
+    height: 42px;
+    display: inline-block;
+    background: url(https://sslimg.vancl.com/header/20120309/spritesbg.png) no-repeat -97px -494px;
+}

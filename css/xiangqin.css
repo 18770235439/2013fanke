@@ -1,0 +1,1158 @@
+/* 头部 */
+.vanclHead {
+    width: 100%;
+    height: auto;
+}
+.headerTopAreaBox {
+    width: 100%;
+    height: 32px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    color: #808080;
+}
+.headerTopArea {
+    width: 100%;
+    height: 31px;
+    background: #f7f7f7;
+}
+.full .headerTopArea .headerTop {
+    width: 1200px;
+}
+.headerTopArea .headerTop {
+    line-height: 32px;
+    margin: 0 auto;
+}
+
+.headerTopArea .headerTopRight {
+    width: 420px;
+    float: right;
+    position: relative;
+    z-index: 9000;
+}
+.headerTopArea #vanclCustomer {
+    width: 70px;
+    height: 18px;
+    line-height: 18px;
+    margin: 7px 0px 0 0px;
+    float: left;
+    display: inline;
+    position: relative;
+    z-index: 1000;
+    cursor: pointer;
+}
+.headerTopArea .hTRL_L {
+    background-position: 0px 0px;
+    display: block;
+}
+.hTRL_L {
+    background: url(../img/index/notice.png) no-repeat scroll 0px 0px;
+    width: 55px;
+    padding-left: 26px;
+    text-align: left;
+}
+.headerTopAreaBox a {
+    color: #808080;
+}
+.headerTopArea .headerTopRight_Right {
+    float: right;
+}
+.vweixinbox {
+    float: left;
+    position: relative;
+    margin-right: 5px;
+}
+.vweixinbox .vweixinTip {
+    position: absolute;
+    width: 148px;
+    height: 169px;
+    right: 0px;
+    top: 30px;
+    border: 1px solid #e5e5e5;
+    background: url(../img/index/weixin.png) no-repeat;
+    overflow: hidden;
+    display: none;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+.blank15 {
+    display: block;
+    width: 100%;
+    height: 15px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden;
+}
+
+.full .headerTopArea .headerTopLeft {
+    min-width: 240px;
+    float: right;
+}
+
+.headerTopArea .loginArea {
+    float: left;
+}
+.full .headerTopArea .recommendArea {
+    margin: 0px 0 0 13px;
+    float: left;
+    display: inline;
+}
+.full .headerTopArea .recommendArea a {
+    padding-right: 14px;
+}
+
+/* 中间的那个广告栏 */
+.full .vanclLogoSearch {
+    width: 1200px;
+    height: 62px;
+    margin: 20px auto 25px;
+}
+.vanclSearch {
+    width: 438px;
+    padding-top: 8px;
+}
+.fr{
+    float: right;
+}
+.fl {
+    float: left;
+}
+.searchTab {
+    height: 29px;
+}
+.searchTab .Enter {
+    width: 249px;
+    height: 27px;
+    padding: 0px 5px;
+    line-height: 27px;
+    border: 1px solid #c9caca;
+}
+.searchTab .btn {
+    width: 49px;
+    height: 29px;
+    border: none;
+    cursor: pointer;
+    background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -100px 0px;
+}
+.searchTab .shopcar {
+    width: 105px;
+    height: 27px;
+    border: 1px solid #c1383e;
+    background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -154px 0px;
+    position: relative;
+    z-index: 10;
+    float: right;
+}
+.searchTab .shopcar a.cartab {
+    display: block;
+    padding-left: 29px;
+    padding-top: 6px;
+    font-size: 12px;
+    color: #ffffff;
+}
+/* .BuycarTab {
+    width: 315px;
+    height: auto;
+    padding: 5px;
+    border: 1px solid #b81c22;
+    position: absolute;
+    right: -1px;
+    top: 27px;
+    _right: -2px;
+    background: #ffffff;
+    display: none;
+} */
+
+.hotWord {
+    width: 440px;
+    padding-top: 5px;
+    line-height: 18px;
+    color: #727171;
+    padding-left: 15px;
+}
+.hotWord p a {
+    color: #727171;
+    padding-left: 5px;
+}
+
+
+/* 导航 */
+.full .navlist {
+    width: 1000px;
+    height: 22px!important;
+    margin: 30px auto!important;
+    padding-left: 200px!important;
+    position: relative!important;
+    z-index: 300!important;
+}
+.full .navlist ul li {
+    float: left;
+    width: 99px;
+    line-height: 22px;
+    padding: 0px 0px 10px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    position: relative;
+    z-index: 220;
+}
+.full .navlist ul li.vancllogo_Con {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0px;
+    background: none;
+    width: 100%;
+}
+.full .navlist ul li a:link, .navlist ul li a:visited{
+    color: #727171;
+}
+.full .navlist ul li.vancllogo_Con a {
+    display: block;
+    width: 185px;
+    height: 46px;
+    background: url(http://i4.vanclimg.com/cms/20160923/logo18546.png) no-repeat scroll;
+}
+.NavLine {
+    display: block;
+    height: 16px;
+    width: 1px;
+    border-right: solid 1px #888;
+    position: absolute;
+    right: 1px;
+    top: 5px;
+    overflow: hidden;
+}
+
+.full .nav_LN ul {
+    border: 1px solid #efefef;
+    border-top: 0px;
+    padding: 10px 0px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+}
+.full .nav_LN ul li {
+    text-align: center;
+    line-height: 35px;
+    background: none;
+    padding: 0px;
+    float: none;
+    font-size: 14px;
+
+}
+
+
+/*  */
+.full .danpinBox {
+    width: 1200px;
+    margin: 0 auto;
+}
+.blank10 {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 10px;
+}
+.breadNav {
+    color: #000;
+    Height: 22px;
+}
+.breadNav span {
+    margin: 0 8px;
+}
+.danpinArea {
+    height: auto;
+    margin: 0px auto;
+    zoom: 1;
+}
+.danpinTitleTab {
+    height: 45px;
+    border-bottom: 1px solid #e5e6e6;
+    min-width: 980px;
+}
+.danpinTitleTab h2 {
+    margin-left: 10px;
+    float: left;
+    margin-right: 10px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+}
+.danpinTitleTab ul.ProductSubnav {
+    height: 45px;
+}
+.fr {
+    float: right;
+}
+.danpinTitleTab ul.ProductSubnav li {
+    float: left;
+    color: #808080;
+    height: 45px;
+    margin: 0 10px 0 0;
+}
+.danpinTitleTab ul.ProductSubnav li a {
+    display: inline-block;
+    padding: 0px 15px 0px 0px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #808080;
+}
+
+.blank30 {
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden;
+}
+
+
+.exzoom{
+    width: 400px !important;
+    height: 400px !important;
+}
+
+
+.divrl{
+    display: flex;
+}
+
+/*  */
+.danpinRight .danpinFixedRightContent {
+    
+    margin-top: -6px;
+}
+.blank10 {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 10px;
+}
+.cuxiaoPrice {
+    color: #A10000;
+}
+.cuxiaoPrice, .cuxiaoPrice span {
+    height: 26px;
+}
+.cuxiaoPrice span, .cuxiaoPrice em {
+    display: inline-block;
+}
+.cuxiaoPrice strong {
+    font-family: Tahoma;
+    font-size: 24px;
+}
+em, strong, th {
+    font-style: normal;
+    font-weight: normal;
+}
+.cuxiaoPrice, .cuxiaoPrice span {
+    height: 26px;
+}
+#danpinRight{
+    margin-left: 100px !important;
+}
+.selectArea {
+    margin-top: -2px;
+}
+.selColorArea {
+    position: relative;
+    zoom: 1;
+}
+.danpinColor_Select {
+    overflow: hidden;
+    /* _zoom: 1; */
+}
+.danpinColorTitle {
+    float: left;
+    color: #666666;
+    /* line-height: 22px; */
+    padding-bottom: 10px;
+}
+.full .selColor {
+    width: 525px;
+}
+.selColor {
+    float: left;
+    /* width: 445px; */
+    padding: 0px;
+    /* *padding-bottom: 8px; */
+}
+#onlickColor, #onlickSelSize {
+    background: #a10000;
+    border: 1px solid #a10000;
+}
+.colorBlock {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 38px;
+    margin: 1px auto 0;
+    width: 93px;
+}
+.selColor li {
+    cursor: pointer;
+    border: 1px solid #B4B4B4;
+    display: inline;
+    float: left;
+    height: 40px;
+    margin: 0px 8px 8px 0px;
+    width: 95px;
+    position: relative;
+}
+.colorBlock span {
+    display: block;
+    float: left;
+    width: 36px;
+    height: 36px;
+    margin: 1px 0px 0px 1px;
+    overflow: hidden;
+    cursor: pointer;
+}   
+.SpriteColors {
+    background-image: url(http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/8/638952/78967,6/3/8/638952/80842,6/3/8/638952/96467);
+}
+.colorBlock p {
+    color: #666;
+    display: inline;
+    float: left;
+    line-height: 16px;
+    margin-left: 6px;
+    padding-top: 4px;
+    width: 46px;
+    overflow: hidden;
+    height: 34px;
+    cursor: pointer;
+}
+.selColor li .colorHoverok {
+    display: block;
+    width: 14px;
+    height: 13px;
+    background: url(//i1.vanclimg.com/item/sprite0725.png) no-repeat scroll;
+    background-position: -1151px 0;
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+}
+.selColor li:hover{
+    border: 1px solid #a10000;
+}
+.selSizeArea {
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-top: 12px;
+    /* *margin: 6px 0px 0px 0px;
+    _zoom: 1; */
+}
+.selSize {
+    width: 335px;
+    float: left;
+}
+.selSizeArea ul {
+    margin: 0px;
+}   
+.selSizeArea .selSize ul li {
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    color: #333333;
+    cursor: pointer;
+    padding: 0px;
+    display: inline;
+    float: left;
+    height: 24px;
+    line-height: 22px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    position: relative;
+    /* *margin-bottom: 8px;
+    *float: none;
+    *display: inline-block;
+    *display: inline;
+    *zoom: 1; */
+}
+.selSizeArea .selSize ul li:hover{
+    border-color: #a10000;
+}
+.selSizeArea .selSize ul li p {
+    display: block;
+    float: left;
+    height: 22px;
+    margin: 1px 1px 0px 1px;
+    background: #fff;
+    padding: 0 9px;
+    width: auto;
+}
+
+.goodsNum {
+    overflow: hidden;
+    padding: 0px;
+}
+.danpinColorTitle {
+    float: left;
+    color: #666666;
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+.danpinnumSelect {
+    float: left;
+    overflow: hidden;
+}
+.goodsNum select {
+    height: 20px;
+    line-height: 20px;
+    width: 53px;
+}
+.goodsNum span, .goodsNum select {
+    display: inline;
+    float: left;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+#comeon {
+    color: #a10000;
+    margin-left: 10px;
+    display: none;
+}
+
+.goodsNum .LastNum {
+    line-height: 20px;
+}
+
+.AreaItotal {
+    padding-bottom: 15px;
+    width: 400px;
+}
+
+.SelectGoods {
+    height: 22px;
+}
+.SelectAreaItotal {
+    width: 285px;
+    float: left;
+}
+.goodsAddArea {
+    position: relative;
+    width: 400px;
+    z-index: 0;
+    background: none repeat scroll 0 0 transparent;
+    border: 0px;
+    padding: 0px;
+}
+.danpinColorTitle {
+    float: left;
+    color: #666666;
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+.goodsAdd .SelectName, .goodsAdd .SelectPoint, .goodsAdd .SelectSize, .goodsAdd .NowHasGoods {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    color: #666666;
+    font-weight: bold;
+}
+.goodsAdd .SelectName, .goodsAdd .SelectSize {
+    width: auto;
+    max-width: 135px;
+    overflow: hidden;
+}
+.goodsAdd .NowHasGoods {
+    color: #a10000;
+    margin-left: 15px;
+}
+
+.shoppingNews {
+    float: left;
+}
+.btnnowbuy {
+    background: #F7ABAF;
+    width: 166px;
+    height: 31px;
+    display: block;
+    float: left;
+    margin-right: 13px;
+    border: solid 1px rgb(183, 27, 33);
+}
+#nowbuy span {
+    margin-left: 60px;
+    margin-top: 9px;
+    display: block;
+    font-size: 14px;
+    color: #A50309;
+}
+.btnaddtocart {
+    background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -147px -285px;
+    width: 168px;
+    height: 33px;
+    display: block;
+    float: left;
+}
+
+
+
+#promotion {
+    margin-top: 3px;
+}
+.danpin_YhTsBox {
+    width: 400px;
+    height: auto;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #A20000;
+}
+.danpin_YhTsBox h4 {
+    width: 400px;
+    height: 30px;
+    margin-bottom: 5px;
+    line-height: 30px;
+    color: #a20000;
+    font-weight: bold;
+    border-bottom: 1px solid #a20000;
+}
+.danpin_YhTsTab h4 {
+    height: 4px;
+    line-height: 14px;
+    margin-bottom: 6px;
+    position: relative;
+}
+.danpin_YhTsTab h4 span {
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    background: #ffffff;
+    position: absolute;
+    left: 167px;
+    top: -4px;
+    padding: 0 8px;
+}  
+/* .danpin_YhTsBox ul li {
+    padding-left: 15px;
+    line-height: 24px;
+    color: #666666;
+    background: url(//i1.vanclimg.com/item/sprite0725.png) no-repeat scroll -372px -316px;
+}  */
+.promotion-gift-card {
+    margin-top: 5px;
+    overflow: hidden;
+}
+.promotion-gift-card-ticket {
+    padding: 0 5px;
+    height: 16px;
+    position: relative;
+    color: #fff;
+    line-height: 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    box-sizing: border-box;
+    background: rgb(196,18,18);
+    float: left;
+    margin-right: 25px;
+    color: #fff !important;
+}
+.promotion-gift-card-ticket:before {
+    content: "";
+    background-image: url(https://i2.vanclimg.com/cms/20191220/qleft.png);
+    width: 12px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: -12px;
+}
+.promotion-gift-card-ticket:after {
+    content: "";
+    width: 6px;
+    background: url(https://i1.vanclimg.com/cms/20191220/qright.png);
+    position: absolute;
+    top: 0;
+    right: -6px;
+    height: 100%;
+}
+
+/* 放大镜 */
+.exzoom{
+    margin-left: 180px;
+}
+
+
+
+
+/* 评论等 */
+.sideBarSettabArea {
+    border-top: 1px solid #e5e6e6;
+    margin-top: 100px;
+}
+.RsetTabArea {
+    width: 748px;
+    display: inline;
+}
+.blank8 {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    overflow: hidden;
+    height: 8px;
+}
+.RsetTabCon {
+    margin-bottom: 50px;
+}   
+.blank15 {
+    display: block;
+    width: 100%;
+    height: 15px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden;
+}
+#anchor1 {
+    width: 1px;
+    height: 1px;
+    visibility: hidden;
+    position: absolute;
+    top: 710px;
+}
+.area1 {
+    position: relative;
+}
+.area1 h3 {
+    color: #999999;
+    font-weight: bold;
+    position: relative;
+    width: 748px;
+}
+.blank5 {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    overflow: hidden;
+    height: 5px;
+}
+
+#relatedshow {
+    position: relative;
+}
+.assort-left, .assort-right, .imgCon, .relatedshow {
+    float: left;
+    display: inline;
+}
+.full .DetailPicture {
+    width: 1200px;
+}
+.DetailPicture {
+    /* width: 980px; */
+    text-align: center;
+    overflow: hidden;
+}
+.DetailPicture img {
+    position: relative;
+    left: -110px;
+    display: block !important;
+    margin: 0 auto;
+}
+.full .DetailPicture img {
+    position: static;
+    left: 0px;
+    display: block !important;
+}
+.imgCon ul {
+    padding-bottom: 20px;
+}
+#feedback {
+    width: 1px;
+    height: 1px;
+    visibility: hidden;
+    position: absolute;
+    bottom: 40px;
+    /* *position: static;
+    *display: block;
+    *width: 1px;
+    *height: 30px;
+    *overflow: hidden;
+    *top: none; */
+}
+
+/* 评论 */
+.RsetTabCon {
+    margin-bottom: 50px;
+}
+.productPinglun {
+    width: 980px;
+    height: auto;
+    margin: 0px auto;
+}
+.full .productPinglun {
+    width: 1200px;
+}
+.fl {
+    float: left;
+}
+.ptPinglunLef, .ptPinglunRig {
+    /* width: 164px; */
+    height: auto;
+    /* padding-left: 34px; */
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
+    border: 1px solid #bbbbbb;
+    /* position: relative; */
+}
+.ptPinglunLef h2.hotTitle, .ptPinglunRig h2.hotTitle {
+    position: absolute;
+    left: 21px;
+    top: -8px;
+    padding: 0px 11px;
+    background: #ffffff;
+}
+.ptPinglunLef ul li img {
+    display: block;
+    left: -14px;
+    position: relative;
+    width: 160px;
+}
+.ptPinglunLef ul li h3 {
+    line-height: 20px;
+    color: #808080;
+    text-align: center;
+}
+.ptPinglunLef ul li h3 a:link, .ptPinglunLef ul li h3 a:visited, .ptPinglunLef ul li h3 a:hover, .ptPinglunLef ul li h3 a:active {
+    color: #808080;
+}
+.ptPinglunLef ul li p {
+    text-align: center;
+}
+.ptPinglunLef ul li p em {
+    color: #a10000;
+    font-weight: bold;
+}
+.pinglunTabRig span {
+    display: block;
+    text-align: center;
+    line-height: 20px;
+}
+.fr {
+    float: right;
+}
+
+/*  */
+.pinglunContent {
+    width: 696px;
+    border-bottom: 1px dotted #b4b4b4;
+}
+.full .pinglunContent {
+    width: 916px;
+}
+.pinglunTab {
+    width: 696px;
+    height: auto;
+    overflow: hidden;
+}
+.full .pinglunTab {
+    width: 916px;
+}
+.pinglunTabLef, .pinglunTabRig {
+    padding: 25px 0px;
+}
+.pinglunTabLef {
+    width: 538px;
+    border-top: 1px dotted #b4b4b4;
+    border-right: 1px dotted #b4b4b4;
+}
+.full .pinglunTabLef {
+    width: 758px;
+}
+.full .pinlunCon {
+    width: 610px;
+}
+.pinlunCon p {
+    line-height: 20px;
+    overflow-wrap: break-word;
+}
+.pinlunCon span.pinlunTime {
+    display: block;
+    padding-top: 15px;
+    color: #b4b4b4;
+}
+.productCon {
+    width: auto;
+    margin-right: 10px;
+}
+.productCon span {
+    line-height: 20px;
+    display: block;
+    width: 130px;
+}
+.productCon span.plsize {
+    padding-top: 15px;
+}
+
+.pinglunTabRig {
+    width: 157px;
+    text-align: center;
+    padding-top: 55px;
+    border-top: 1px dotted #b4b4b4;
+    overflow: hidden;
+    /* _width: 153px; */
+}
+.NewCommentDetail .pinglunTabRig a {
+    width: 120px;
+    display: inline-block;
+}
+.pinglunTabRig span {
+    display: block;
+    text-align: center;
+    line-height: 20px;
+}
+.UserLevel {
+    height: 14px;
+    width: 42px;
+    background-image: url(../img/userlevelgrowth_42_14.jpg);
+    display: inline-block;
+    overflow: hidden;
+}
+.pinlunCon p {
+    line-height: 20px;
+    overflow-wrap: break-word;
+}
+.pinglunTabLef {
+    width: 538px;
+    border-top: 1px dotted #b4b4b4;
+    border-right: 1px dotted #b4b4b4;
+}
+
+
+.area2Page {
+    height: 44px;
+}
+.area2Page ul {
+    display: inline;
+    float: right;
+    margin-right: 14px;
+    margin-top: 15px;
+}
+.area2Page li {
+    height: 17px;
+    line-height: 19px;
+    padding: 0 4px;
+    float: left;
+    display: inline;
+}
+.area2Page li strong {
+    color: #A10000;
+    font-weight: bold;
+}
+.full .productQuiz {
+    width: 980px;
+}
+.area3 {
+    border: 1px solid #cfcfcf;
+    height: auto;
+}
+span#tiwen {
+    float: right;
+}
+#stylenoquestion {
+    margin: 0 30px;
+}
+.area3Con {
+    padding: 0px;
+}
+.blank0 {
+    display: block;
+    width: 100%;
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden;
+}
+
+
+/* 右侧栏 */
+.BayWindow {
+    width: 73px;
+    height: 281px;
+    border: 1px solid #b81b22;
+    border-bottom: none;
+    margin-bottom: 30px;
+}
+.BayWindow ul li a {
+    display: block;
+    width: 73px;
+}
+.BayWindow ul li {
+    width: 73px;
+    border-bottom: 1px solid #b81b22;
+}
+.BayWindow ul li.newPeople a {
+    height: 76px;
+    background: url(https://i2.vanclimg.com/cms/20190716/baywindow0716.png) no-repeat -1px -1px;
+}
+.BayWindow ul li.downApp a {
+    height: 76px;
+    background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -1px;
+}
+.BayWindow ul li.online a {
+    height: 71px;
+    background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -78px;
+}
+.BayWindow ul li.BlackTop a {
+    height: 55px;
+    background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -149px;
+}
+
+
+/* 倒数第二层 */
+.full .vanclFoot {
+    overflow: hidden;
+    width: 1118px;
+    height: 282px;
+    margin: 0px auto;
+    padding: 0px 40px 0px;
+    border: 1px solid #e0e0e1;
+    font-family: "Microsoft YaHei";
+    margin-bottom: 25px;
+}
+.full .vanclCustomer {
+    margin: 33px 0px 23px;
+    overflow: hidden;
+}
+.publicfooterclear {
+    zoom: 1;
+}
+.full .vanclCustomer ul li {
+    width: 370px;
+    height: 138px;
+    border-right: 1px solid #e0e0e1;
+    margin-right: 0px;
+}
+.full .vanclFoot ul li {
+    float: left;
+}
+.full .vanclCustomer ul li p.onlineCustomer {
+    margin: 15px auto 30px;
+}
+.full .vanclCustomer ul li p {
+    text-align: center;
+    font-size: 14px;
+    color: #727171;
+    line-height: 26px;
+}
+.full .vanclCustomer ul li p img {
+    display: block;
+    margin: 0px auto;
+}
+.full .vanclCustomer ul li p.onlineTime {
+    margin: 0px auto;
+    width: 156px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    background: #b81c22;
+    color: #ffffff;
+}
+.full .vanclCustomer ul li p.seven {
+    margin: 20px 0px;
+}
+.full .vanclCustomer ul li.twocode {
+    border-right: none;
+}
+.full .vanclCustomer ul li.twocode p img {
+    margin-bottom: 10px;
+}
+.full .vanclCustomer ul li.twocode p em {
+    color: #a10000;
+}
+
+.full .vanclOthers {
+    height: 26px;
+    padding: 17px 0px 14px;
+    background: #f8f8f8;
+    width: 100%;
+    margin: 0;
+}
+.full .vanclOthers ul li {
+    padding: 0px 65px;
+    line-height: 26px;
+    border-right: 1px solid #dadadb;
+    width: auto;
+    text-align: center;
+    margin-right: 0px;
+}
+.full .vanclOthers ul li.none {
+    border-right: none;
+}
+/* 底部 */
+.footBottom {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    border-top: 1px solid #3e3a39;
+}
+.footBottomTab {
+    width: 1200px;
+    height: auto;
+    margin: 10px auto;
+}
+.footBottomTab p {
+    text-align: center;
+    line-height: 25px;
+    color: #3e3a39;
+    font-family: "Microsoft YaHei";
+}
+.blank20 {
+    display: block;
+    width: 100%;
+    height: 20px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden;
+}
+.subFooter {
+    width: 980px;
+    margin: 0px auto 25px;
+    text-align: center;
+}
+.subFooter .costumeOrg {
+    background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -629px transparent;
+    display: inline-block;
+    height: 45px;
+    width: 156px;
+}
+.subFooter .vanclMsg:link, .subFooter .vanclMsg:visited, .subFooter .vanclMsg:hover {
+    background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll -97px -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 101px;
+}
+.subFooter a, .subFooter span {
+    margin: 0 10px;
+}
+#footerArea .vanclqingNian:link, #footerArea .vanclqingNian:visited, #footerArea .vanclqingNian:hover {
+    background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll -202px -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+}
+.blank0 {
+    display: block;
+    width: 100%;
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden;
+}
+
+

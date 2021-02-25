@@ -1,0 +1,533 @@
+/* 头部 */
+.vanclHead {
+    width: 100%;
+    height: auto;
+}
+.headerTopAreaBox {
+    width: 100%;
+    height: 32px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    color: #808080;
+}
+.headerTopArea {
+    width: 100%;
+    height: 31px;
+    background: #f7f7f7;
+}
+.full .headerTopArea .headerTop {
+    width: 1200px;
+}
+.headerTopArea .headerTop {
+    line-height: 32px;
+    margin: 0 auto;
+}
+
+.headerTopArea .headerTopRight {
+    width: 420px;
+    float: right;
+    position: relative;
+    z-index: 9000;
+}
+.headerTopArea #vanclCustomer {
+    width: 70px;
+    height: 18px;
+    line-height: 18px;
+    margin: 7px 0px 0 0px;
+    float: left;
+    display: inline;
+    position: relative;
+    z-index: 1000;
+    cursor: pointer;
+}
+.headerTopArea .hTRL_L {
+    background-position: 0px 0px;
+    display: block;
+}
+.hTRL_L {
+    background: url(../img/index/notice.png) no-repeat scroll 0px 0px;
+    width: 55px;
+    padding-left: 26px;
+    text-align: left;
+}
+.headerTopAreaBox a {
+    color: #808080;
+}
+.headerTopArea .headerTopRight_Right {
+    float: right;
+}
+.vweixinbox {
+    float: left;
+    position: relative;
+    margin-right: 5px;
+}
+.vweixinbox .vweixinTip {
+    position: absolute;
+    width: 148px;
+    height: 169px;
+    right: 0px;
+    top: 30px;
+    border: 1px solid #e5e5e5;
+    background: url(../img/index/weixin.png) no-repeat;
+    overflow: hidden;
+    display: none;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+.full .headerTopArea .headerTopLeft {
+    min-width: 240px;
+    float: right;
+}
+
+.headerTopArea .loginArea {
+    float: left;
+}
+.full .headerTopArea .recommendArea {
+    margin: 0px 0 0 13px;
+    float: left;
+    display: inline;
+}
+.full .headerTopArea .recommendArea a {
+    padding-right: 14px;
+}
+
+
+/* 中间的那个广告栏 */
+.full .vanclLogoSearch {
+    width: 1200px;
+    height: 62px;
+    margin: 20px auto 25px;
+}
+.vanclSearch {
+    width: 438px;
+    padding-top: 8px;
+}
+.fr{
+    float: right;
+}
+.fl {
+    float: left;
+}
+.searchTab {
+    height: 29px;
+}
+.searchTab .Enter {
+    width: 249px;
+    height: 27px;
+    padding: 0px 5px;
+    line-height: 27px;
+    border: 1px solid #c9caca;
+}
+.searchTab .btn {
+    width: 49px;
+    height: 29px;
+    border: none;
+    cursor: pointer;
+    background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -100px 0px;
+}
+.searchTab .shopcar {
+    width: 105px;
+    height: 27px;
+    border: 1px solid #c1383e;
+    background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -154px 0px;
+    position: relative;
+    z-index: 10;
+    float: right;
+}
+.searchTab .shopcar a.cartab {
+    display: block;
+    padding-left: 29px;
+    padding-top: 6px;
+    font-size: 12px;
+    color: #ffffff;
+}
+/* .BuycarTab {
+    width: 315px;
+    height: auto;
+    padding: 5px;
+    border: 1px solid #b81c22;
+    position: absolute;
+    right: -1px;
+    top: 27px;
+    _right: -2px;
+    background: #ffffff;
+    display: none;
+} */
+
+.hotWord {
+    width: 440px;
+    padding-top: 5px;
+    line-height: 18px;
+    color: #727171;
+    padding-left: 15px;
+}
+.hotWord p a {
+    color: #727171;
+    padding-left: 5px;
+}
+
+
+/* 导航 */
+.full .navlist {
+    width: 1000px;
+    height: 22px!important;
+    margin: 30px auto!important;
+    padding-left: 200px!important;
+    position: relative!important;
+    z-index: 300!important;
+}
+.full .navlist ul li {
+    float: left;
+    width: 99px;
+    line-height: 22px;
+    padding: 0px 0px 10px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    position: relative;
+    z-index: 220;
+}
+.full .navlist ul li.vancllogo_Con {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0px;
+    background: none;
+    width: 100%;
+}
+.full .navlist ul li a:link, .navlist ul li a:visited{
+    color: #727171;
+}
+.full .navlist ul li.vancllogo_Con a {
+    display: block;
+    width: 185px;
+    height: 46px;
+    background: url(http://i4.vanclimg.com/cms/20160923/logo18546.png) no-repeat scroll;
+}
+.NavLine {
+    display: block;
+    height: 16px;
+    width: 1px;
+    border-right: solid 1px #888;
+    position: absolute;
+    right: 1px;
+    top: 5px;
+    overflow: hidden;
+}
+.full .nav_LN ul {
+    border: 1px solid #efefef;
+    border-top: 0px;
+    padding: 10px 0px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+}
+.full .nav_LN ul li {
+    text-align: center;
+    line-height: 35px;
+    background: none;
+    padding: 0px;
+    float: none;
+    font-size: 14px;
+    position: relative;
+    z-index: 300;
+}
+
+
+/* 内容 */
+.swiper-pagination>span{
+    background-color: green;
+}
+
+.full .vanclCon {
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.getMoney {
+    margin: 20px 0px;
+}
+
+/* 弹出广告栏 */
+.shaoma_con {
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    z-index: 9;
+}
+.shaoma {
+    width: 1090px;
+    height: 90px;
+    margin: 15px auto;
+    background: url(https://i2.vanclimg.com/cms/20201110/xinren.jpg);
+    position: relative;
+}
+.sm-icon-close {
+    display: block;
+    background: url(https://i1.vanclimg.com/cms/20201110/sm_close.png) no-repeat scroll 0px 0px;
+    height: 22px;
+    width: 22px;
+    position: absolute;
+}
+
+
+/*  */
+.piclist h2 {
+    text-align: center;
+    line-height: 50px;
+    margin: 30px 0px;
+    font-family: "Microsoft YaHei";
+    color: #9a9a9a;
+}
+.shangzhuanglist ul li {
+    float: left;
+    margin-right: 16px;
+    display: inline;
+}
+.shangzhuanglist ul li.pic_one {
+    width: 592px;
+}
+.shangzhuanglist ul li h3, .kuzhuanglist ul li h3 {
+    height: 28px;
+    padding: 20px 12px;
+    line-height: 28px;
+    border: 1px solid #e8e7ec;
+    border-top: 0px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+.shangzhuanglist ul li h3 span, .kuzhuanglist ul li h3 span {
+    float: right;
+    color: #a10000;
+    font-family: Arial;
+    line-height: 24px;
+    font-size: 14px;
+}
+.shangzhuanglist ul li h3 span em, .kuzhuanglist ul li h3 span em {
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.shangzhuanglist ul li.pic_two {
+    width: 290px;
+}
+.shangzhuanglist ul li div {
+    margin-bottom: 11px;
+}
+.shangzhuanglist ul li.pic_three {
+    width: 286px;
+}
+.clear:after {
+    content: "";
+    height: 0px;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.kuzhuanglist {
+    overflow: hidden;
+}
+
+.piclist {
+    width: 1200px;
+}
+.kuzhuanglist ul li {
+    width: 285px;
+    height: 508px;
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.otherlist ul li {
+    float: left;
+    width: 385px;
+    height: 275px;
+    display: inline;
+    margin: 0px 22px 28px 0px;
+}
+
+/* 右侧栏 */
+.BayWindow {
+    width: 73px;
+    height: 281px;
+    border: 1px solid #b81b22;
+    border-bottom: none;
+    margin-bottom: 30px;
+}
+.BayWindow ul li a {
+    display: block;
+    width: 73px;
+}
+.BayWindow ul li {
+    width: 73px;
+    border-bottom: 1px solid #b81b22;
+}
+.BayWindow ul li.newPeople a {
+    height: 76px;
+    background: url(https://i2.vanclimg.com/cms/20190716/baywindow0716.png) no-repeat -1px -1px;
+}
+.BayWindow ul li.downApp a {
+    height: 76px;
+    background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -1px;
+}
+.BayWindow ul li.online a {
+    height: 71px;
+    background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -78px;
+}
+.BayWindow ul li.BlackTop a {
+    height: 55px;
+    background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -149px;
+}
+
+/* 倒数第二层 */
+.full .vanclFoot {
+    overflow: hidden;
+    width: 1118px;
+    height: 282px;
+    margin: 0px auto;
+    padding: 0px 40px 0px;
+    border: 1px solid #e0e0e1;
+    font-family: "Microsoft YaHei";
+    margin-bottom: 25px;
+}
+.full .vanclCustomer {
+    margin: 33px 0px 23px;
+    overflow: hidden;
+}
+.publicfooterclear {
+    zoom: 1;
+}
+.full .vanclCustomer ul li {
+    width: 370px;
+    height: 138px;
+    border-right: 1px solid #e0e0e1;
+    margin-right: 0px;
+}
+.full .vanclFoot ul li {
+    float: left;
+}
+.full .vanclCustomer ul li p.onlineCustomer {
+    margin: 15px auto 30px;
+}
+.full .vanclCustomer ul li p {
+    text-align: center;
+    font-size: 14px;
+    color: #727171;
+    line-height: 26px;
+}
+.full .vanclCustomer ul li p img {
+    display: block;
+    margin: 0px auto;
+}
+.full .vanclCustomer ul li p.onlineTime {
+    margin: 0px auto;
+    width: 156px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    background: #b81c22;
+    color: #ffffff;
+}
+.full .vanclCustomer ul li p.seven {
+    margin: 20px 0px;
+}
+.full .vanclCustomer ul li.twocode {
+    border-right: none;
+}
+.full .vanclCustomer ul li.twocode p img {
+    margin-bottom: 10px;
+}
+.full .vanclCustomer ul li.twocode p em {
+    color: #a10000;
+}
+
+.full .vanclOthers {
+    height: 26px;
+    padding: 17px 0px 14px;
+    background: #f8f8f8;
+    width: 100%;
+    margin: 0;
+}
+.full .vanclOthers ul li {
+    padding: 0px 65px;
+    line-height: 26px;
+    border-right: 1px solid #dadadb;
+    width: auto;
+    text-align: center;
+    margin-right: 0px;
+}
+.full .vanclOthers ul li.none {
+    border-right: none;
+}
+/* 底部 */
+.footBottom {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    border-top: 1px solid #3e3a39;
+}
+.footBottomTab {
+    width: 1200px;
+    height: auto;
+    margin: 10px auto;
+}
+.footBottomTab p {
+    text-align: center;
+    line-height: 25px;
+    color: #3e3a39;
+    font-family: "Microsoft YaHei";
+}
+.blank20 {
+    display: block;
+    width: 100%;
+    height: 20px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden;
+}
+.subFooter {
+    width: 980px;
+    margin: 0px auto 25px;
+    text-align: center;
+}
+.subFooter .costumeOrg {
+    background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -629px transparent;
+    display: inline-block;
+    height: 45px;
+    width: 156px;
+}
+.subFooter .vanclMsg:link, .subFooter .vanclMsg:visited, .subFooter .vanclMsg:hover {
+    background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll -97px -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 101px;
+}
+.subFooter a, .subFooter span {
+    margin: 0 10px;
+}
+#footerArea .vanclqingNian:link, #footerArea .vanclqingNian:visited, #footerArea .vanclqingNian:hover {
+    background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll -202px -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+}
+.blank0 {
+    display: block;
+    width: 100%;
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden;
+}
